@@ -3,7 +3,48 @@ html {
     height: 100%;
 }
 
+body {
+    /* background-color: rgb(5, 14, 19); */
+    background-color: black;
+    color: rgb(143, 173, 164);
+
+    padding: 5px;
+}
+
+.orange {
+    color: #f25022
+}
+
+.green {
+    color: #7fba00;
+}
+
+.blue {
+    color: #00a4ef;
+}
+
+.yellow {
+    color: #FFB900;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .heading {
     width: 75%;
-    margin: 10px auto;
+    margin: auto;
+    margin-left: 25%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: large;
+    font-weight: 1200;
+}
+
+.round {
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(9, 32, 43);
+    color: rgb(29, 173, 106);
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 0 0 6% 6%;
 }
